@@ -1,0 +1,15 @@
+server:
+  port: 8123
+  servlet:
+    context-path: /api
+spring:
+  application:
+    name: api-interface
+agony:
+  client:
+    access-key: agony
+    secret-key: abcd1234
+#logging:
+#  level:
+#    org.springframework.boot.autoconfigure: debug
+
